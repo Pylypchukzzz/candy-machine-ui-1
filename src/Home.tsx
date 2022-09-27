@@ -487,7 +487,7 @@ const Home = (props: HomeProps) => {
   }, [refreshCandyMachineState]);
 
   return (
-    <Container style={{ marginTop: 100 }}>
+    <Container style={{ marginTop: -200 }}>
       <Container maxWidth="xs" style={{ position: "relative" }}>
         <Paper
           style={{
@@ -643,9 +643,9 @@ const Home = (props: HomeProps) => {
             variant="caption"
             align="center"
             display="block"
-            style={{ marginTop: 7, color: "grey" }}
+            style={{ marginTop: 7, color: "orange" }}
           >
-            Powered by METAPLEX
+            Powered by YouGifted
           </Typography>
         </Paper>
       </Container>
